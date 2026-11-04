@@ -1,0 +1,6 @@
+{
+  "name": "NovaCut Studio - AI Video Editor",
+  "description": "Professional AI-powered video editing suite with auto social aspect ratios, low-resolution upscaler, anti-copyright shield, 30-day duplicate protection, and offline cloud sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

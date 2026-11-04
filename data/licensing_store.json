@@ -1,0 +1,2363 @@
+{
+  "version": 1,
+  "owners": [
+    {
+      "email": "josnking01@gmail.com",
+      "addedAt": "2026-10-30T14:32:53.206Z",
+      "status": "active",
+      "notes": "Primary Master Owner"
+    },
+    {
+      "email": "owner2secondary@gmail.com",
+      "addedAt": "2026-10-30T14:32:53.212Z",
+      "status": "active",
+      "notes": "Secondary Co-Owner"
+    },
+    {
+      "email": "owner3finance@gmail.com",
+      "addedAt": "2026-10-30T14:32:53.212Z",
+      "status": "active",
+      "notes": "Executive Co-Owner"
+    },
+    {
+      "email": "aamirking07861@gmail.com",
+      "addedAt": "2026-10-30T15:57:56.329Z",
+      "status": "active",
+      "notes": "Configured via server environment allowlist"
+    },
+    {
+      "email": "a030210523@gmail.com",
+      "addedAt": "2026-10-30T15:57:56.329Z",
+      "status": "active",
+      "notes": "Configured via server environment allowlist"
+    },
+    {
+      "email": "mayorajput00786@gmail.com",
+      "addedAt": "2026-11-01T05:30:00.000Z",
+      "status": "active",
+      "notes": "Master Owner (mayorajput00786@gmail.com)"
+    }
+  ],
+  "licenses": [
+    {
+      "id": "lic_1793516397883_69e1ad",
+      "keyHash": "1a08693c2df6feb998834bcfd895741ef956e83cfaab4fbe5beb735013629f96",
+      "keyPrefix": "NVST-470E-****-0402",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T06:59:57.880Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.883Z",
+      "updatedAt": "2026-11-01T06:59:57.883Z"
+    },
+    {
+      "id": "lic_1793516397882_727363",
+      "keyHash": "1a9706c0e06ecfa51b8ff0d65e599538a3ba5fc89220e5629334eaaa692b041e",
+      "keyPrefix": "NVST-B34A-****-1879",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T06:59:57.880Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.882Z",
+      "updatedAt": "2026-11-01T06:59:57.882Z"
+    },
+    {
+      "id": "lic_1793516397882_d887ae",
+      "keyHash": "81c45e5791cd6055bdb2de9c3909182939fccc4994b9557cba3b3f02aaee520c",
+      "keyPrefix": "NVST-1C37-****-4336",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T06:59:57.880Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.882Z",
+      "updatedAt": "2026-11-01T06:59:57.882Z"
+    },
+    {
+      "id": "lic_1793516397881_271a86",
+      "keyHash": "dc5e7e1ae40d679e56f8ae0f4fad617b00f04c42d83bbe826601c1adad4ec486",
+      "keyPrefix": "NVST-BD05-****-69DE",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T06:59:57.880Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.881Z",
+      "updatedAt": "2026-11-01T06:59:57.881Z"
+    },
+    {
+      "id": "lic_1793516397880_69614d",
+      "keyHash": "6b4f33f113bd14568a3d42d98fb83349a289a810d2848af3e1df404e153a68b5",
+      "keyPrefix": "NVST-443C-****-7DE0",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T06:59:57.880Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.880Z",
+      "updatedAt": "2026-11-01T06:59:57.880Z"
+    },
+    {
+      "id": "lic_1793516397875_a59730",
+      "keyHash": "e5ecf54066cc38b4af1ab1d6b227d16f6d0254598db4a0ed3d15980cf536a589",
+      "keyPrefix": "NVST-6F88-****-0BC7",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T06:59:57.875Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.875Z",
+      "updatedAt": "2026-11-01T06:59:57.876Z"
+    },
+    {
+      "id": "lic_1793516397843_5c3b44",
+      "keyHash": "408b66b73ed0fb66280d6f006182023184f53580f5a2180acbf50470345179d5",
+      "keyPrefix": "NVST-3D61-****-8FFA",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-22T06:59:57.843Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.843Z",
+      "updatedAt": "2026-11-01T06:59:57.846Z"
+    },
+    {
+      "id": "lic_1793516397837_e1bdc8",
+      "keyHash": "c7477367d395122fa3fbbcf2d3f38e94dc9fa7145712b03f237b43134c92f012",
+      "keyPrefix": "NVST-ADA4-****-E2FB",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T06:59:57.837Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T06:59:57.837Z",
+      "updatedAt": "2026-11-01T06:59:57.879Z"
+    },
+    {
+      "id": "lic_1793511463546_fa8b70",
+      "keyHash": "c0a3824d8df8f5c784ad79520fc0f82d46fe12f92180e09c03ae0207fac3e223",
+      "keyPrefix": "NVST-E56D-****-F2CD",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T05:37:43.536Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.547Z",
+      "updatedAt": "2026-11-01T05:37:43.547Z"
+    },
+    {
+      "id": "lic_1793511463545_767a60",
+      "keyHash": "0ce78e01bdadca0c4615e8bd80ab6755b27ad73c262436732a75c0c0b1c9974a",
+      "keyPrefix": "NVST-4025-****-A199",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T05:37:43.536Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.545Z",
+      "updatedAt": "2026-11-01T05:37:43.545Z"
+    },
+    {
+      "id": "lic_1793511463537_4bb1be",
+      "keyHash": "4873f6ead0dd249b8a29634228f0c35749c56cba023b8112964f8ca4e8e8651e",
+      "keyPrefix": "NVST-9C5B-****-2841",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T05:37:43.536Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.538Z",
+      "updatedAt": "2026-11-01T05:37:43.538Z"
+    },
+    {
+      "id": "lic_1793511463537_6355fa",
+      "keyHash": "c5999ce6de290fbf8f40ea7ab4cc9bd3cd34584672698705d9b0bad78530639a",
+      "keyPrefix": "NVST-B2B3-****-B15B",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T05:37:43.536Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.537Z",
+      "updatedAt": "2026-11-01T05:37:43.537Z"
+    },
+    {
+      "id": "lic_1793511463536_cc3266",
+      "keyHash": "0f848b81e3a7c98fe5d6f599e8ec9d88ed0f8cf52de3a8944f168a1b7cccd9a1",
+      "keyPrefix": "NVST-B1E4-****-8E96",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T05:37:43.536Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.536Z",
+      "updatedAt": "2026-11-01T05:37:43.536Z"
+    },
+    {
+      "id": "lic_1793511463531_5d40e4",
+      "keyHash": "ca7b22173fdbe1c58a60911cef1f7591a020691aee78e81364065aeb4f288838",
+      "keyPrefix": "NVST-3479-****-F573",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T05:37:43.531Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.531Z",
+      "updatedAt": "2026-11-01T05:37:43.532Z"
+    },
+    {
+      "id": "lic_1793511463506_d6c20c",
+      "keyHash": "2a95785802df6833879ea9382e9c4e0ef30aea340dc462ba3187bcc2e4d49b1d",
+      "keyPrefix": "NVST-6F3C-****-BF80",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-22T05:37:43.506Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.506Z",
+      "updatedAt": "2026-11-01T05:37:43.507Z"
+    },
+    {
+      "id": "lic_1793511463502_3ba88f",
+      "keyHash": "660821df59672e499c5905b127ad4ded7c6a45548418b181cefafc6ddda76000",
+      "keyPrefix": "NVST-35A1-****-B066",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T05:37:43.502Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T05:37:43.502Z",
+      "updatedAt": "2026-11-01T05:37:43.536Z"
+    },
+    {
+      "id": "lic_1793500014457_1a2e85",
+      "keyHash": "8ecc8f7cc7e886864b68e6b153c8436cc317ca0534d37ac02bdb6b09a796ee35",
+      "keyPrefix": "NVST-8E74-****-349F",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:26:54.455Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.457Z",
+      "updatedAt": "2026-11-01T02:26:54.457Z"
+    },
+    {
+      "id": "lic_1793500014456_a59272",
+      "keyHash": "51a4dd77140e9a5f58f728351281244f6a99a7606c93ed36dd14035649ae4c5c",
+      "keyPrefix": "NVST-64A0-****-BCC9",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:26:54.455Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.456Z",
+      "updatedAt": "2026-11-01T02:26:54.456Z"
+    },
+    {
+      "id": "lic_1793500014456_63fb1c",
+      "keyHash": "fd0006801dd64b6016d0b37ecdf134c746fc738f784ee3fb5e6afbfe3a873af2",
+      "keyPrefix": "NVST-28BB-****-69A3",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:26:54.455Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.456Z",
+      "updatedAt": "2026-11-01T02:26:54.456Z"
+    },
+    {
+      "id": "lic_1793500014455_904c2b",
+      "keyHash": "ef8eb9329be4fd27828765a3b9761325753c00a10ff088b76f01069d3b9a63ac",
+      "keyPrefix": "NVST-01E1-****-25CE",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:26:54.455Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.455Z",
+      "updatedAt": "2026-11-01T02:26:54.455Z"
+    },
+    {
+      "id": "lic_1793500014455_a1c602",
+      "keyHash": "c57fb26c7eb62e5ec9152e9cae18fd37115b8beb73686820a6c119ddd6c0c17d",
+      "keyPrefix": "NVST-E04F-****-0004",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:26:54.455Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.455Z",
+      "updatedAt": "2026-11-01T02:26:54.455Z"
+    },
+    {
+      "id": "lic_1793500014449_f6ea11",
+      "keyHash": "285bb340e3e53e8f54e7c1a4e04f5edaa611983592032e38fbdd21d4968b1302",
+      "keyPrefix": "NVST-7026-****-42FA",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T02:26:54.449Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.449Z",
+      "updatedAt": "2026-11-01T02:26:54.450Z"
+    },
+    {
+      "id": "lic_1793500014424_917834",
+      "keyHash": "63a7a8e4acb552d6734d8fb6dcf2e4feac2443d7e1aaac0c68ba26140876950c",
+      "keyPrefix": "NVST-F998-****-FCCC",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-22T02:26:54.424Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.424Z",
+      "updatedAt": "2026-11-01T02:26:54.425Z"
+    },
+    {
+      "id": "lic_1793500014421_fce67a",
+      "keyHash": "0dc7bc2eae0d8c212cf9be7b53201c362f1f42532c2e123ae8b3a0d5a3ebdcdb",
+      "keyPrefix": "NVST-48B2-****-C939",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T02:26:54.420Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:26:54.421Z",
+      "updatedAt": "2026-11-01T02:26:54.454Z"
+    },
+    {
+      "id": "lic_1793499956979_04c5b8",
+      "keyHash": "84b7c9741cf57fbd671c78bda1430651691ea7fb9185c0f116fb1eb6db6e928b",
+      "keyPrefix": "NVST-7F29-****-75B3",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:25:56.977Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.979Z",
+      "updatedAt": "2026-11-01T02:25:56.979Z"
+    },
+    {
+      "id": "lic_1793499956978_f60a81",
+      "keyHash": "b9f9e872fb7298ae7ac71c9b50b26da8f7dd2aa6122809046bc4da0d316965cf",
+      "keyPrefix": "NVST-8E25-****-1385",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:25:56.977Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.978Z",
+      "updatedAt": "2026-11-01T02:25:56.978Z"
+    },
+    {
+      "id": "lic_1793499956978_3e8e3b",
+      "keyHash": "3d4c7b18e9ac664189d42a60a0fb241f897ac67eabed0cac09de125b828d116e",
+      "keyPrefix": "NVST-51F2-****-C8FA",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:25:56.977Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.978Z",
+      "updatedAt": "2026-11-01T02:25:56.978Z"
+    },
+    {
+      "id": "lic_1793499956978_895db1",
+      "keyHash": "f97f01b80e611c41b8011b608b345679752a35e91053c2247ec8bde53dd7a3ab",
+      "keyPrefix": "NVST-4098-****-56F2",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:25:56.977Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.978Z",
+      "updatedAt": "2026-11-01T02:25:56.978Z"
+    },
+    {
+      "id": "lic_1793499956977_cad8fb",
+      "keyHash": "8bbf9a1d3f5c31f9be9d2dcfbc552c78c287f840466a31f280dc1fdc08fa8b94",
+      "keyPrefix": "NVST-BF7B-****-CAAB",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-11-01T02:25:56.977Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.977Z",
+      "updatedAt": "2026-11-01T02:25:56.977Z"
+    },
+    {
+      "id": "lic_1793499956972_38d8d2",
+      "keyHash": "84bf7186c892cb3ba88e0cc97d353bfc1f3e53fe748c4e088d0e81436fc42f0e",
+      "keyPrefix": "NVST-51C8-****-7402",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T02:25:56.972Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.972Z",
+      "updatedAt": "2026-11-01T02:25:56.973Z"
+    },
+    {
+      "id": "lic_1793499956948_94037d",
+      "keyHash": "52fb63a727d59f2e87b2d0bce5d0d183a74aa7aa62803b1e97a834b5dbe7227f",
+      "keyPrefix": "NVST-1827-****-669B",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-22T02:25:56.948Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.948Z",
+      "updatedAt": "2026-11-01T02:25:56.949Z"
+    },
+    {
+      "id": "lic_1793499956944_7c977c",
+      "keyHash": "a4fb22fb9e58c0945b610ac1786ec5be98f7600f36d319819fb8d72714c5801d",
+      "keyPrefix": "NVST-1791-****-E460",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-12-01T02:25:56.944Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-11-01T02:25:56.944Z",
+      "updatedAt": "2026-11-01T02:25:56.977Z"
+    },
+    {
+      "id": "lic_1793376135916_aeec6d",
+      "keyHash": "0f638eac90062d3d678a9ea8f7002f9c1bc52a3bcb27cb396d272abe10dd9734",
+      "keyPrefix": "NVST-83B4-****-3CC5",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T16:02:15.914Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.916Z",
+      "updatedAt": "2026-10-30T16:02:15.916Z"
+    },
+    {
+      "id": "lic_1793376135916_82b7a3",
+      "keyHash": "ebac8b260d7ec3d8d4dca3badaeda19cd672c56c3f8cf36105bc1dc819ecc318",
+      "keyPrefix": "NVST-F3EE-****-D3FC",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T16:02:15.914Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.916Z",
+      "updatedAt": "2026-10-30T16:02:15.916Z"
+    },
+    {
+      "id": "lic_1793376135915_b5cdc5",
+      "keyHash": "d90354f94bd4a80149747deb6b2a4666a80afa882dd5599db21e51056af1369a",
+      "keyPrefix": "NVST-83D2-****-FE67",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T16:02:15.914Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.915Z",
+      "updatedAt": "2026-10-30T16:02:15.915Z"
+    },
+    {
+      "id": "lic_1793376135915_34dd4c",
+      "keyHash": "978699d489026eca92d9d99205c69838bec84da9302f5c73a611a8f45de9e298",
+      "keyPrefix": "NVST-F411-****-39A6",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T16:02:15.914Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.915Z",
+      "updatedAt": "2026-10-30T16:02:15.915Z"
+    },
+    {
+      "id": "lic_1793376135914_3a6020",
+      "keyHash": "a5ae365a5f7813ddde93e6430cd4538bbf58fab8c9e16467f06a4801683e8e92",
+      "keyPrefix": "NVST-C72F-****-9A7A",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T16:02:15.914Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.914Z",
+      "updatedAt": "2026-10-30T16:02:15.914Z"
+    },
+    {
+      "id": "lic_1793376135910_81b345",
+      "keyHash": "e5644d6756d280cb4c5188f9e9991798c2668164ebf0db7c8343673e0f11e277",
+      "keyPrefix": "NVST-B3B9-****-C984",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-29T16:02:15.910Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.910Z",
+      "updatedAt": "2026-10-30T16:02:15.911Z"
+    },
+    {
+      "id": "lic_1793376135888_0b80c4",
+      "keyHash": "d4cba927c706572996c5dc933ff620a4694823fe46772af83e67d5bd1ff83ad2",
+      "keyPrefix": "NVST-5E14-****-5D00",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-20T16:02:15.888Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.888Z",
+      "updatedAt": "2026-10-30T16:02:15.889Z"
+    },
+    {
+      "id": "lic_1793376135884_378a0b",
+      "keyHash": "7fc2687dab50ec9381f9350c1ab65610b22a88c862ac9e35d9141714b15207a5",
+      "keyPrefix": "NVST-0E16-****-0AC8",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-29T16:02:15.884Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T16:02:15.884Z",
+      "updatedAt": "2026-10-30T16:02:15.914Z"
+    },
+    {
+      "id": "lic_1793370796669_dbada3",
+      "keyHash": "a983aec4a5c4bf741cef901f91fa0aedb21227f9877455378dd02eff183a6e49",
+      "keyPrefix": "NVST-9FBE-****-4C85",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:33:16.668Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.669Z",
+      "updatedAt": "2026-10-30T14:33:16.669Z"
+    },
+    {
+      "id": "lic_1793370796669_240ab1",
+      "keyHash": "358e5a0a9dd788818b2940abf9d99b2ded069ea66e5aaa8e063892deecf95d0d",
+      "keyPrefix": "NVST-CA4D-****-B1AB",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:33:16.668Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.669Z",
+      "updatedAt": "2026-10-30T14:33:16.669Z"
+    },
+    {
+      "id": "lic_1793370796668_364edc",
+      "keyHash": "521d0a95a0e42218d0b89394170a749cfd6cfbfcdfbdbde4b0366363dbe05128",
+      "keyPrefix": "NVST-064E-****-E26E",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:33:16.668Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.668Z",
+      "updatedAt": "2026-10-30T14:33:16.668Z"
+    },
+    {
+      "id": "lic_1793370796668_ac4298",
+      "keyHash": "1e85565056a60e1f5bcf7eaf4fd3c21cddb87348ff71cdb384e53c60aa074cbc",
+      "keyPrefix": "NVST-8C63-****-AE16",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:33:16.668Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.668Z",
+      "updatedAt": "2026-10-30T14:33:16.668Z"
+    },
+    {
+      "id": "lic_1793370796668_cb7cd9",
+      "keyHash": "f7b06ddf42ec25b9daabaf4a86e34764b6265015f47a57a8748f6a1273c52cc8",
+      "keyPrefix": "NVST-438B-****-58D3",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:33:16.668Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.668Z",
+      "updatedAt": "2026-10-30T14:33:16.668Z"
+    },
+    {
+      "id": "lic_1793370796665_05dfce",
+      "keyHash": "435cd99c88a9f8e1ac4319ab6fc77837b7a4b78d63328698d0569e440967300a",
+      "keyPrefix": "NVST-C1A6-****-C7DE",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-29T14:33:16.664Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.665Z",
+      "updatedAt": "2026-10-30T14:33:16.665Z"
+    },
+    {
+      "id": "lic_1793370796647_242a4d",
+      "keyHash": "ab358eb6689a669613047dc16e1cfca8e4f60d22da3483f923573be52122c6bd",
+      "keyPrefix": "NVST-1E2A-****-56E4",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-20T14:33:16.647Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.647Z",
+      "updatedAt": "2026-10-30T14:33:16.647Z"
+    },
+    {
+      "id": "lic_1793370796645_1db842",
+      "keyHash": "c83aa0b6a325856199cca31f2661e720926d3806a922308f4181ff7fa57e2934",
+      "keyPrefix": "NVST-69FD-****-4B3D",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-29T14:33:16.644Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:33:16.645Z",
+      "updatedAt": "2026-10-30T14:33:16.667Z"
+    },
+    {
+      "id": "lic_1793370773289_1b817f",
+      "keyHash": "1049cd08ebde615651a94bdb9a2edd706e8d52d1ab50d732146fc2fdaf88cb76",
+      "keyPrefix": "NVST-D677-****-82C0",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:32:53.287Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.289Z",
+      "updatedAt": "2026-10-30T14:32:53.289Z"
+    },
+    {
+      "id": "lic_1793370773289_529256",
+      "keyHash": "3e5e5b1d9ffde32e1c3927f2387716097338379a503200f264eb214bde76e209",
+      "keyPrefix": "NVST-D8A4-****-05DA",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:32:53.287Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.289Z",
+      "updatedAt": "2026-10-30T14:32:53.289Z"
+    },
+    {
+      "id": "lic_1793370773288_92759e",
+      "keyHash": "92c6b170684ead5a9a1a146c74cefc9bb53b37438c25b794f57e4d4f7fb35ba8",
+      "keyPrefix": "NVST-7521-****-FEC4",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:32:53.287Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.288Z",
+      "updatedAt": "2026-10-30T14:32:53.288Z"
+    },
+    {
+      "id": "lic_1793370773288_0c2298",
+      "keyHash": "260fe4b2ab2d1f1f00b69d952a03d5917c0c3c7f71be77beac65f7f2105f851a",
+      "keyPrefix": "NVST-FF36-****-8F45",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:32:53.287Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.288Z",
+      "updatedAt": "2026-10-30T14:32:53.288Z"
+    },
+    {
+      "id": "lic_1793370773288_dda9cf",
+      "keyHash": "31695f1fd55c0e7dcf128490dc79277906e9a53181fc74002a74248c722083f3",
+      "keyPrefix": "NVST-E3D0-****-F27C",
+      "type": "annual",
+      "planName": "1-Year VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": "2027-10-30T14:32:53.287Z",
+      "customerName": "Enterprise Batch Corp",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.288Z",
+      "updatedAt": "2026-10-30T14:32:53.288Z"
+    },
+    {
+      "id": "lic_1793370773283_d4fa38",
+      "keyHash": "00bb02917afdd2bbd93fceaeab5dedd8ab53b55be2e068bc53a4efbecd1ea9e4",
+      "keyPrefix": "NVST-86BA-****-D9BC",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-29T14:32:53.283Z",
+      "customerName": "Revoked Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.283Z",
+      "updatedAt": "2026-10-30T14:32:53.284Z"
+    },
+    {
+      "id": "lic_1793370773217_dfb85d",
+      "keyHash": "8b64f1d3413f034325e946046622a4843eb1cabb32f4b85814a4d34103e1e2bb",
+      "keyPrefix": "NVST-DC38-****-B4E2",
+      "type": "custom",
+      "planName": "-10-Day Custom Pass",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-20T14:32:53.217Z",
+      "customerName": "Expired Tester",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.217Z",
+      "updatedAt": "2026-10-30T14:32:53.217Z"
+    },
+    {
+      "id": "lic_1793370773214_bc46c2",
+      "keyHash": "42df2a1b6fe1f9e650f25323a11e3b148ca6d882b88a4858625748d619f16ae3",
+      "keyPrefix": "NVST-5088-****-8784",
+      "type": "monthly",
+      "planName": "30-Day Pro Creator",
+      "status": "revoked",
+      "maxDevices": 2,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-29T14:32:53.214Z",
+      "customerName": "Studio Pro Customer",
+      "notes": "",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.214Z",
+      "updatedAt": "2026-10-30T14:32:53.287Z"
+    },
+    {
+      "id": "lic_demo_pro",
+      "keyHash": "728d4adf080042c12aed7a692778c11b71c75022219db153cf7d2d93a4f284fc",
+      "keyPrefix": "NVST-DEMO-****-KEY1",
+      "type": "monthly",
+      "planName": "Pro Creator (Monthly)",
+      "status": "active",
+      "maxDevices": 2,
+      "currentActivations": 1,
+      "expiresAt": "2026-11-29T14:32:53.207Z",
+      "customerName": "Alex Rivers (YouTube Creator)",
+      "customerEmail": "alex@creatorstudios.co",
+      "notes": "Pre-activated creator demo license (2 device limit)",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.207Z",
+      "updatedAt": "2026-10-30T14:33:12.486Z"
+    },
+    {
+      "id": "lic_demo_lifetime",
+      "keyHash": "3fbd94f6e36e13590a1c3a6cfeca76d37d085485914c1332105a0dac6341f85c",
+      "keyPrefix": "NVST-LIFE-****-SEAT",
+      "type": "lifetime",
+      "planName": "Lifetime VIP Studio",
+      "status": "available",
+      "maxDevices": 3,
+      "currentActivations": 0,
+      "expiresAt": null,
+      "customerName": "Elena Rostova",
+      "customerEmail": "elena@filmcut.art",
+      "notes": "Permanent customer lifetime license",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.207Z",
+      "updatedAt": "2026-10-30T14:32:53.207Z"
+    },
+    {
+      "id": "lic_demo_expired",
+      "keyHash": "5c5adecc0684efcd990c76939e67b68a8441faa85241f134ea7b428ae9960924",
+      "keyPrefix": "NVST-EXPR-****-OLD1",
+      "type": "trial",
+      "planName": "7-Day Fast Trial",
+      "status": "expired",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-10-25T14:32:53.207Z",
+      "customerName": "Expired Trial User",
+      "notes": "Expired for testing rejection flows",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-18T14:32:53.207Z",
+      "updatedAt": "2026-10-30T14:32:53.207Z"
+    },
+    {
+      "id": "lic_demo_revoked",
+      "keyHash": "0510f28dc9b8aff32ec256815ae423f4e7af58c078619c9d6e7593ccb3d6bb82",
+      "keyPrefix": "NVST-RVKD-****-STOP",
+      "type": "monthly",
+      "planName": "Pro Creator",
+      "status": "revoked",
+      "maxDevices": 1,
+      "currentActivations": 0,
+      "expiresAt": "2026-11-19T14:32:53.207Z",
+      "customerName": "Suspended / Revoked Account",
+      "notes": "Manually revoked for terms violation testing",
+      "createdBy": "josnking01@gmail.com",
+      "createdAt": "2026-10-30T14:32:53.207Z",
+      "updatedAt": "2026-10-30T14:32:53.207Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": "dev_1793370773215_865caa90",
+      "licenseId": "lic_1793370773214_bc46c2",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-10-30T14:32:53.215Z",
+      "lastSeen": "2026-10-30T14:32:53.215Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793370773216_5dee5c79",
+      "licenseId": "lic_1793370773214_bc46c2",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-10-30T14:32:53.216Z",
+      "lastSeen": "2026-10-30T14:32:53.216Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793370773285_8d909b0e",
+      "licenseId": "lic_1793370773214_bc46c2",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-10-30T14:32:53.285Z",
+      "lastSeen": "2026-10-30T14:32:53.285Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793370792486_498b9c28",
+      "licenseId": "lic_demo_pro",
+      "deviceId": "WIN-PC-DEV-001",
+      "deviceName": "Dev Desktop PC",
+      "osInfo": "Windows 11 x64",
+      "ipAddress": "127.0.0.1",
+      "activatedAt": "2026-10-30T14:33:12.486Z",
+      "lastSeen": "2026-10-30T14:33:12.486Z",
+      "status": "active"
+    },
+    {
+      "id": "dev_1793370796645_f2e1e3ad",
+      "licenseId": "lic_1793370796645_1db842",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-10-30T14:33:16.645Z",
+      "lastSeen": "2026-10-30T14:33:16.645Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793370796646_c73f6c54",
+      "licenseId": "lic_1793370796645_1db842",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-10-30T14:33:16.646Z",
+      "lastSeen": "2026-10-30T14:33:16.646Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793370796666_b524ef3e",
+      "licenseId": "lic_1793370796645_1db842",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-10-30T14:33:16.666Z",
+      "lastSeen": "2026-10-30T14:33:16.666Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793376135886_9c6f361e",
+      "licenseId": "lic_1793376135884_378a0b",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-10-30T16:02:15.886Z",
+      "lastSeen": "2026-10-30T16:02:15.886Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793376135887_6026ea00",
+      "licenseId": "lic_1793376135884_378a0b",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-10-30T16:02:15.887Z",
+      "lastSeen": "2026-10-30T16:02:15.887Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793376135912_7a2f592c",
+      "licenseId": "lic_1793376135884_378a0b",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-10-30T16:02:15.912Z",
+      "lastSeen": "2026-10-30T16:02:15.912Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793499956946_72ea4c99",
+      "licenseId": "lic_1793499956944_7c977c",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T02:25:56.946Z",
+      "lastSeen": "2026-11-01T02:25:56.946Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793499956947_b1b569af",
+      "licenseId": "lic_1793499956944_7c977c",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-11-01T02:25:56.947Z",
+      "lastSeen": "2026-11-01T02:25:56.947Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793499956974_dc935d2e",
+      "licenseId": "lic_1793499956944_7c977c",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T02:25:56.974Z",
+      "lastSeen": "2026-11-01T02:25:56.974Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793500014422_0b63aa3d",
+      "licenseId": "lic_1793500014421_fce67a",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T02:26:54.422Z",
+      "lastSeen": "2026-11-01T02:26:54.422Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793500014423_fdcd99ef",
+      "licenseId": "lic_1793500014421_fce67a",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-11-01T02:26:54.423Z",
+      "lastSeen": "2026-11-01T02:26:54.423Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793500014453_5ea15ae6",
+      "licenseId": "lic_1793500014421_fce67a",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T02:26:54.453Z",
+      "lastSeen": "2026-11-01T02:26:54.453Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793511463504_9d8acae8",
+      "licenseId": "lic_1793511463502_3ba88f",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T05:37:43.504Z",
+      "lastSeen": "2026-11-01T05:37:43.504Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793511463505_179a613d",
+      "licenseId": "lic_1793511463502_3ba88f",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-11-01T05:37:43.505Z",
+      "lastSeen": "2026-11-01T05:37:43.505Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793511463533_5f27dc26",
+      "licenseId": "lic_1793511463502_3ba88f",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T05:37:43.533Z",
+      "lastSeen": "2026-11-01T05:37:43.533Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793516397840_9a3d8dc5",
+      "licenseId": "lic_1793516397837_e1bdc8",
+      "deviceId": "DEVICE_TEST_SLOT_1",
+      "deviceName": "Main Desktop",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T06:59:57.840Z",
+      "lastSeen": "2026-11-01T06:59:57.840Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793516397842_4b59d1bd",
+      "licenseId": "lic_1793516397837_e1bdc8",
+      "deviceId": "DEVICE_TEST_SLOT_2",
+      "deviceName": "Laptop Pro",
+      "osInfo": "Windows 11 Laptop",
+      "activatedAt": "2026-11-01T06:59:57.842Z",
+      "lastSeen": "2026-11-01T06:59:57.842Z",
+      "status": "deactivated"
+    },
+    {
+      "id": "dev_1793516397878_d5b7b6d5",
+      "licenseId": "lic_1793516397837_e1bdc8",
+      "deviceId": "DEVICE_REPLACEMENT_SLOT",
+      "deviceName": "Replacement Workstation",
+      "osInfo": "Windows 11",
+      "activatedAt": "2026-11-01T06:59:57.878Z",
+      "lastSeen": "2026-11-01T06:59:57.878Z",
+      "status": "deactivated"
+    }
+  ],
+  "customers": [],
+  "auditLogs": [
+    {
+      "id": "audit_1793516397884_ba72c3",
+      "timestamp": "2026-11-01T06:59:57.884Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793516397884_2be335",
+      "timestamp": "2026-11-01T06:59:57.884Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-11-01T06:59:57.880Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793516397878_e45969",
+      "timestamp": "2026-11-01T06:59:57.878Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793516397837_e1bdc8",
+        "keyPrefix": "NVST-ADA4-****-E2FB",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793516397877_4f0f3e",
+      "timestamp": "2026-11-01T06:59:57.877Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793516397837_e1bdc8",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793516397876_e616a8",
+      "timestamp": "2026-11-01T06:59:57.876Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-12-01T06:59:57.875Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793516397845_0752cd",
+      "timestamp": "2026-11-01T06:59:57.845Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-22T06:59:57.843Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793516397843_57697a",
+      "timestamp": "2026-11-01T06:59:57.843Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793516397837_e1bdc8",
+        "keyPrefix": "NVST-ADA4-****-E2FB",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793516397841_673d99",
+      "timestamp": "2026-11-01T06:59:57.841Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793516397837_e1bdc8",
+        "keyPrefix": "NVST-ADA4-****-E2FB",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793516397837_e58f76",
+      "timestamp": "2026-11-01T06:59:57.837Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-12-01T06:59:57.837Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793516397836_7c9cde",
+      "timestamp": "2026-11-01T06:59:57.836Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793516397835_dcc5b0",
+      "timestamp": "2026-11-01T06:59:57.835Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-11-01T06:59:57.835Z"
+      }
+    },
+    {
+      "id": "audit_1793516397834_7e49da",
+      "timestamp": "2026-11-01T06:59:57.834Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-11-01T06:59:57.834Z"
+      }
+    },
+    {
+      "id": "audit_1793516397831_0307a1",
+      "timestamp": "2026-11-01T06:59:57.831Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-11-01T06:59:57.830Z"
+      }
+    },
+    {
+      "id": "audit_1793511463547_2cd401",
+      "timestamp": "2026-11-01T05:37:43.548Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793511463547_440e2d",
+      "timestamp": "2026-11-01T05:37:43.547Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-11-01T05:37:43.536Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793511463534_cb1d08",
+      "timestamp": "2026-11-01T05:37:43.534Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793511463502_3ba88f",
+        "keyPrefix": "NVST-35A1-****-B066",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793511463533_ae256d",
+      "timestamp": "2026-11-01T05:37:43.533Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793511463502_3ba88f",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793511463531_8da9e2",
+      "timestamp": "2026-11-01T05:37:43.531Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-12-01T05:37:43.531Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793511463506_5c34ab",
+      "timestamp": "2026-11-01T05:37:43.506Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-22T05:37:43.506Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793511463505_dfb89a",
+      "timestamp": "2026-11-01T05:37:43.505Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793511463502_3ba88f",
+        "keyPrefix": "NVST-35A1-****-B066",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793511463504_408bb3",
+      "timestamp": "2026-11-01T05:37:43.504Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793511463502_3ba88f",
+        "keyPrefix": "NVST-35A1-****-B066",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793511463503_d98ced",
+      "timestamp": "2026-11-01T05:37:43.503Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-12-01T05:37:43.502Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793511463501_56e3e3",
+      "timestamp": "2026-11-01T05:37:43.501Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793511463500_898780",
+      "timestamp": "2026-11-01T05:37:43.500Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-11-01T05:37:43.500Z"
+      }
+    },
+    {
+      "id": "audit_1793511463499_91b7f5",
+      "timestamp": "2026-11-01T05:37:43.499Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-11-01T05:37:43.499Z"
+      }
+    },
+    {
+      "id": "audit_1793511463495_07b744",
+      "timestamp": "2026-11-01T05:37:43.497Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-11-01T05:37:43.495Z"
+      }
+    },
+    {
+      "id": "audit_1793500014457_881528",
+      "timestamp": "2026-11-01T02:26:54.457Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793500014457_2ddeba",
+      "timestamp": "2026-11-01T02:26:54.457Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-11-01T02:26:54.455Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793500014453_d00736",
+      "timestamp": "2026-11-01T02:26:54.453Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793500014421_fce67a",
+        "keyPrefix": "NVST-48B2-****-C939",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793500014451_dc53c0",
+      "timestamp": "2026-11-01T02:26:54.451Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793500014421_fce67a",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793500014450_0ccf2d",
+      "timestamp": "2026-11-01T02:26:54.450Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-12-01T02:26:54.449Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793500014425_fd2586",
+      "timestamp": "2026-11-01T02:26:54.425Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-22T02:26:54.424Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793500014424_99d9fa",
+      "timestamp": "2026-11-01T02:26:54.424Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793500014421_fce67a",
+        "keyPrefix": "NVST-48B2-****-C939",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793500014423_0e7716",
+      "timestamp": "2026-11-01T02:26:54.423Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793500014421_fce67a",
+        "keyPrefix": "NVST-48B2-****-C939",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793500014421_6c8a04",
+      "timestamp": "2026-11-01T02:26:54.421Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-12-01T02:26:54.420Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793500014420_a66f01",
+      "timestamp": "2026-11-01T02:26:54.420Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793500014419_f33a92",
+      "timestamp": "2026-11-01T02:26:54.419Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-11-01T02:26:54.419Z"
+      }
+    },
+    {
+      "id": "audit_1793500014419_0e83ca",
+      "timestamp": "2026-11-01T02:26:54.419Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-11-01T02:26:54.419Z"
+      }
+    },
+    {
+      "id": "audit_1793500014417_11b083",
+      "timestamp": "2026-11-01T02:26:54.417Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-11-01T02:26:54.417Z"
+      }
+    },
+    {
+      "id": "audit_1793499956980_970080",
+      "timestamp": "2026-11-01T02:25:56.980Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793499956979_ce199a",
+      "timestamp": "2026-11-01T02:25:56.979Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-11-01T02:25:56.977Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793499956975_782f4f",
+      "timestamp": "2026-11-01T02:25:56.975Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793499956944_7c977c",
+        "keyPrefix": "NVST-1791-****-E460",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793499956974_833b20",
+      "timestamp": "2026-11-01T02:25:56.974Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793499956944_7c977c",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793499956972_ae6d10",
+      "timestamp": "2026-11-01T02:25:56.972Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-12-01T02:25:56.972Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793499956948_2ba25d",
+      "timestamp": "2026-11-01T02:25:56.948Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-22T02:25:56.948Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793499956947_bf46c3",
+      "timestamp": "2026-11-01T02:25:56.947Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793499956944_7c977c",
+        "keyPrefix": "NVST-1791-****-E460",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793499956946_923b7c",
+      "timestamp": "2026-11-01T02:25:56.946Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793499956944_7c977c",
+        "keyPrefix": "NVST-1791-****-E460",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793499956945_d3d209",
+      "timestamp": "2026-11-01T02:25:56.945Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-12-01T02:25:56.944Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793499956943_197a14",
+      "timestamp": "2026-11-01T02:25:56.943Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793499956943_f6a206",
+      "timestamp": "2026-11-01T02:25:56.943Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-11-01T02:25:56.943Z"
+      }
+    },
+    {
+      "id": "audit_1793499956942_1c982b",
+      "timestamp": "2026-11-01T02:25:56.942Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-11-01T02:25:56.942Z"
+      }
+    },
+    {
+      "id": "audit_1793499956941_4017f2",
+      "timestamp": "2026-11-01T02:25:56.941Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-11-01T02:25:56.940Z"
+      }
+    },
+    {
+      "id": "audit_1793376135917_795e4f",
+      "timestamp": "2026-10-30T16:02:15.917Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793376135916_8f4d11",
+      "timestamp": "2026-10-30T16:02:15.916Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-10-30T16:02:15.914Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793376135913_59c310",
+      "timestamp": "2026-10-30T16:02:15.913Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793376135884_378a0b",
+        "keyPrefix": "NVST-0E16-****-0AC8",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793376135912_f9b99e",
+      "timestamp": "2026-10-30T16:02:15.912Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793376135884_378a0b",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793376135911_772451",
+      "timestamp": "2026-10-30T16:02:15.911Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-11-29T16:02:15.910Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793376135888_9ee5bb",
+      "timestamp": "2026-10-30T16:02:15.888Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-20T16:02:15.888Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793376135887_f6203b",
+      "timestamp": "2026-10-30T16:02:15.887Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793376135884_378a0b",
+        "keyPrefix": "NVST-0E16-****-0AC8",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793376135886_9b015c",
+      "timestamp": "2026-10-30T16:02:15.886Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793376135884_378a0b",
+        "keyPrefix": "NVST-0E16-****-0AC8",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793376135885_2c3d14",
+      "timestamp": "2026-10-30T16:02:15.885Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-11-29T16:02:15.884Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793376135883_1d3a0a",
+      "timestamp": "2026-10-30T16:02:15.883Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793376135883_85f164",
+      "timestamp": "2026-10-30T16:02:15.883Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-10-30T16:02:15.883Z"
+      }
+    },
+    {
+      "id": "audit_1793376135882_8e8ac1",
+      "timestamp": "2026-10-30T16:02:15.882Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-10-30T16:02:15.882Z"
+      }
+    },
+    {
+      "id": "audit_1793376135881_f3319e",
+      "timestamp": "2026-10-30T16:02:15.881Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-10-30T16:02:15.880Z"
+      }
+    },
+    {
+      "id": "audit_1793370796670_73b714",
+      "timestamp": "2026-10-30T14:33:16.670Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793370796669_c831a9",
+      "timestamp": "2026-10-30T14:33:16.669Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-10-30T14:33:16.668Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793370796667_43721c",
+      "timestamp": "2026-10-30T14:33:16.667Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793370796645_1db842",
+        "keyPrefix": "NVST-69FD-****-4B3D",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793370796666_b5685a",
+      "timestamp": "2026-10-30T14:33:16.666Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793370796645_1db842",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793370796665_d769a0",
+      "timestamp": "2026-10-30T14:33:16.665Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-11-29T14:33:16.664Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793370796647_f63373",
+      "timestamp": "2026-10-30T14:33:16.647Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-20T14:33:16.647Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793370796646_044625",
+      "timestamp": "2026-10-30T14:33:16.646Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793370796645_1db842",
+        "keyPrefix": "NVST-69FD-****-4B3D",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793370796646_5722b7",
+      "timestamp": "2026-10-30T14:33:16.646Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793370796645_1db842",
+        "keyPrefix": "NVST-69FD-****-4B3D",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793370796645_237297",
+      "timestamp": "2026-10-30T14:33:16.645Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-11-29T14:33:16.644Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793370796644_00f5bb",
+      "timestamp": "2026-10-30T14:33:16.644Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793370796643_5dbcde",
+      "timestamp": "2026-10-30T14:33:16.643Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-10-30T14:33:16.643Z"
+      }
+    },
+    {
+      "id": "audit_1793370796643_b85801",
+      "timestamp": "2026-10-30T14:33:16.643Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-10-30T14:33:16.643Z"
+      }
+    },
+    {
+      "id": "audit_1793370796636_6f48b7",
+      "timestamp": "2026-10-30T14:33:16.636Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-10-30T14:33:16.636Z"
+      }
+    },
+    {
+      "id": "audit_1793370796615_c9fa5b",
+      "timestamp": "2026-10-30T14:33:16.615Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-10-30T14:33:16.615Z"
+      }
+    },
+    {
+      "id": "audit_1793370792487_318561",
+      "timestamp": "2026-10-30T14:33:12.487Z",
+      "actorEmail": "alex@creatorstudios.co",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_demo_pro",
+        "keyPrefix": "NVST-DEMO-****-KEY1",
+        "deviceId": "WIN-PC-DEV-001",
+        "deviceName": "Dev Desktop PC",
+        "osInfo": "Windows 11 x64",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793370788490_3b7a7b",
+      "timestamp": "2026-10-30T14:33:08.490Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-10-30T14:33:08.490Z"
+      }
+    },
+    {
+      "id": "audit_1793370784478_25ec1d",
+      "timestamp": "2026-10-30T14:33:04.478Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-10-30T14:33:04.478Z"
+      }
+    },
+    {
+      "id": "audit_1793370773289_6b6b29",
+      "timestamp": "2026-10-30T14:32:53.289Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "MANUAL_TEST_AUDIT_ACTION",
+      "details": {
+        "test": true
+      }
+    },
+    {
+      "id": "audit_1793370773289_eff3e2",
+      "timestamp": "2026-10-30T14:32:53.289Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 5,
+        "type": "annual",
+        "maxDevices": 3,
+        "expiresAt": "2027-10-30T14:32:53.287Z",
+        "targetCustomer": "Enterprise Batch Corp"
+      }
+    },
+    {
+      "id": "audit_1793370773285_97bed0",
+      "timestamp": "2026-10-30T14:32:53.286Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793370773214_bc46c2",
+        "keyPrefix": "NVST-5088-****-8784",
+        "deviceId": "DEVICE_REPLACEMENT_SLOT",
+        "deviceName": "Replacement Workstation",
+        "osInfo": "Windows 11",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793370773285_24b860",
+      "timestamp": "2026-10-30T14:32:53.285Z",
+      "actorEmail": "system",
+      "action": "DEVICE_DEACTIVATED",
+      "details": {
+        "licenseId": "lic_1793370773214_bc46c2",
+        "deviceId": "DEVICE_TEST_SLOT_1"
+      }
+    },
+    {
+      "id": "audit_1793370773283_cfc90d",
+      "timestamp": "2026-10-30T14:32:53.283Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 1,
+        "expiresAt": "2026-11-29T14:32:53.283Z",
+        "targetCustomer": "Revoked Tester"
+      }
+    },
+    {
+      "id": "audit_1793370773217_659a53",
+      "timestamp": "2026-10-30T14:32:53.217Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "custom",
+        "maxDevices": 1,
+        "expiresAt": "2026-10-20T14:32:53.217Z",
+        "targetCustomer": "Expired Tester"
+      }
+    },
+    {
+      "id": "audit_1793370773216_815c51",
+      "timestamp": "2026-10-30T14:32:53.217Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793370773214_bc46c2",
+        "keyPrefix": "NVST-5088-****-8784",
+        "deviceId": "DEVICE_TEST_SLOT_2",
+        "deviceName": "Laptop Pro",
+        "osInfo": "Windows 11 Laptop",
+        "slot": "2/2"
+      }
+    },
+    {
+      "id": "audit_1793370773216_2ffbfb",
+      "timestamp": "2026-10-30T14:32:53.216Z",
+      "actorEmail": "customer",
+      "action": "LICENSE_ACTIVATED_ON_DEVICE",
+      "details": {
+        "licenseId": "lic_1793370773214_bc46c2",
+        "keyPrefix": "NVST-5088-****-8784",
+        "deviceId": "DEVICE_TEST_SLOT_1",
+        "deviceName": "Main Desktop",
+        "osInfo": "Windows 11",
+        "slot": "1/2"
+      }
+    },
+    {
+      "id": "audit_1793370773215_464d11",
+      "timestamp": "2026-10-30T14:32:53.215Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "BATCH_LICENSES_GENERATED",
+      "details": {
+        "count": 1,
+        "type": "monthly",
+        "maxDevices": 2,
+        "expiresAt": "2026-11-29T14:32:53.214Z",
+        "targetCustomer": "Studio Pro Customer"
+      }
+    },
+    {
+      "id": "audit_1793370773213_cf4b44",
+      "timestamp": "2026-10-30T14:32:53.213Z",
+      "actorEmail": "hackerattacker@gmail.com",
+      "action": "OWNER_LOGIN_REJECTED",
+      "details": {
+        "attemptedEmail": "hacker.attacker@gmail.com",
+        "normalizedEmail": "hackerattacker@gmail.com",
+        "reason": "Email is not in the authorized owner allowlist"
+      }
+    },
+    {
+      "id": "audit_1793370773213_1a615e",
+      "timestamp": "2026-10-30T14:32:53.213Z",
+      "actorEmail": "owner3finance@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner3finance@gmail.com",
+        "timestamp": "2026-10-30T14:32:53.213Z"
+      }
+    },
+    {
+      "id": "audit_1793370773212_e2fed4",
+      "timestamp": "2026-10-30T14:32:53.212Z",
+      "actorEmail": "owner2secondary@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "owner2secondary@gmail.com",
+        "timestamp": "2026-10-30T14:32:53.212Z"
+      }
+    },
+    {
+      "id": "audit_1793370773211_526e06",
+      "timestamp": "2026-10-30T14:32:53.211Z",
+      "actorEmail": "josnking01@gmail.com",
+      "action": "OWNER_LOGIN_SUCCESS",
+      "details": {
+        "email": "josnking01@gmail.com",
+        "timestamp": "2026-10-30T14:32:53.211Z"
+      }
+    },
+    {
+      "id": "audit_1793370773207",
+      "timestamp": "2026-10-30T14:32:53.207Z",
+      "actorEmail": "system",
+      "action": "INITIALIZE_LICENSING_DATABASE",
+      "details": {
+        "primaryOwner": "josnking01@gmail.com",
+        "seededLicenses": 4
+      }
+    }
+  ]
+}

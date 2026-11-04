@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NovaCut AI Video Studio - Desktop Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #090d16;
+      color: #f8fafc;
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      max-width: 580px;
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 20px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: rgba(6, 182, 212, 0.15);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      color: #38bdf8;
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 800;
+      margin: 0 0 10px 0;
+    }
+    h1 span { color: #38bdf8; }
+    p {
+      color: #94a3b8;
+      line-height: 1.6;
+      font-size: 13px;
+      margin: 0 0 20px 0;
+    }
+    .urdu-notice {
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      text-align: right;
+      direction: rtl;
+      font-size: 13px;
+      line-height: 1.8;
+      color: #cbd5e1;
+    }
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 13px 20px;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+    }
+    .btn-cloud {
+      background: linear-gradient(135deg, #06b6d4, #2563eb);
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(6, 182, 212, 0.35);
+    }
+    .btn-local {
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+    }
+    .status {
+      margin-top: 16px;
+      font-size: 12px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">CANVA + CAPCUT AI VIDEO SUITE</div>
+    <h1>NovaCut <span>Studio</span></h1>
+    <p>Connecting to NovaCut Studio workspace...</p>
+
+    <div class="urdu-notice">
+      پیارے صارف! اگر آپ کے کمپیوٹر پر <strong>127.0.0.1 Refused</strong> کا میسج آئے تو اس کا مطلب ہے کہ لوکل سرور بند ہے۔ نیچے دیا گیا <strong>Open Direct Live App</strong> بٹن دبائیں، ایپ فوراً بغیر کسی ایرر کے کھل جائے گی۔
+    </div>
+
+    <div class="btn-group">
+      <a href="https://ais-dev-p7twebxergo2ygfntubhgq-991742061158.asia-east1.run.app" class="btn btn-cloud" id="cloudBtn">
+        🚀 Open Direct Live App (Instant - 100% Working)
+      </a>
+      <a href="http://127.0.0.1:3000/" class="btn btn-local" id="localBtn">
+        💻 Open Local Server (Port 3000)
+      </a>
+    </div>
+
+    <div class="status" id="statusMsg">Auto-detecting optimal connection...</div>
+  </div>
+
+  <script>
+    const statusMsg = document.getElementById('statusMsg');
+    // Test if local port 3000 is open
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 1200);
+
+    fetch('http://127.0.0.1:3000/health', { signal: controller.signal })
+      .then(r => r.json())
+      .then(d => {
+        clearTimeout(timeoutId);
+        statusMsg.innerHTML = '<span style="color:#4ade80;">✓ Local Server active! Opening...</span>';
+        setTimeout(() => { window.location.href = 'http://127.0.0.1:3000/'; }, 400);
+      })
+      .catch(() => {
+        statusMsg.innerHTML = '<span style="color:#38bdf8;">Connecting to Live Cloud Engine...</span>';
+        // Auto-redirect to live cloud app so user never sees 127.0.0.1 error!
+        setTimeout(() => {
+          window.location.href = 'https://ais-dev-p7twebxergo2ygfntubhgq-991742061158.asia-east1.run.app';
+        }, 800);
+      });
+  </script>
+</body>
+</html>
